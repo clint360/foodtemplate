@@ -3,7 +3,8 @@
 This project is called the food blog.
 
 ## APP
-![FOOD](assets/images/capture.JPG)
+![FOOD](assets/images/Capture.JPG)
+
 ## ABOUT
 
 This page give describtion about the various meals of my restaurant together attached
