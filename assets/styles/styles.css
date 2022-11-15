@@ -162,11 +162,11 @@ label {
     width: 83%;
     margin: auto;
   }
-  
+
   .foodesc {
     flex-basis: 90%;
   }
-  
+
   .tags {
     display: flex;
     flex-direction: column;
