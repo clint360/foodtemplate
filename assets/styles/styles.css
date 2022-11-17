@@ -161,10 +161,16 @@ label {
     justify-content: space-evenly;
     width: 83%;
     margin: auto;
+    margin-left: -10px;
   }
 
   .foodesc {
-    flex-basis: 110%;
+    width: 100%;
+    margin: auto;
+  }
+
+  .foodesc {
+    width: 130%;
   }
 
   .tags {
