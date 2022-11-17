@@ -1,0 +1,182 @@
+body {
+  font-family: Verdana, sans-serif;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+  padding-bottom: 0.4rem;
+}
+
+.mens {
+  margin-top: 1.7rem;
+  float: left;
+}
+
+.logo {
+  float: center;
+  text-align: center;
+  width: 40%;
+}
+
+.mail {
+  text-align: right;
+}
+
+#food {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  justify-content: space-evenly;
+  width: 83%;
+  margin: auto;
+}
+
+.foodesc {
+  flex-basis: 23%;
+  text-align: center;
+}
+
+.foodesc img {
+  width: 100%;
+}
+
+.fnm {
+  font-size: 20px;
+}
+
+.fdsc {
+  font-size: 14px;
+}
+
+.chef {
+  width: 80%;
+}
+
+span {
+  background-color: black;
+  color: white;
+  padding: 7px;
+}
+
+.pictures {
+  width: 95%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  gap: 1vw;
+}
+
+.number p {
+  padding: 6px;
+}
+
+.post p {
+  display: flex;
+  gap: 1rem;
+}
+
+.number p:hover {
+  background-color: black;
+  color: white;
+}
+
+#man {
+  border-top: 1px solid #ddd;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+#man h2 {
+  margin: 60px 0;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10vw;
+  line-height: 1.6;
+  width: 80%;
+  margin: auto;
+  border-top: 1px solid #ddd;
+}
+
+.buttom {
+  line-height: 40px;
+}
+
+.buttom span {
+  background-color: grey;
+  margin: 0 8px;
+  height: 10px;
+}
+
+label {
+  background-color: black;
+  margin: 0 8px;
+  color: white;
+  padding: 5px;
+}
+
+@media screen and (max-width: 425px) {
+  .foot,
+  .post {
+    width: 100%;
+    display: contents;
+    grid-template-rows: auto;
+  }
+
+  footer {
+    display: block;
+    width: 100%;
+  }
+
+  #navbar {
+    overflow-x: hidden;
+    position: fixed;
+  }
+
+  #main {
+    width: 80%;
+    margin: auto;
+  }
+
+  #food {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    justify-content: space-evenly;
+    width: 83%;
+    margin: auto;
+    margin-left: -10px;
+  }
+
+  .foodesc {
+    width: 130%;
+    margin: auto;
+  }
+
+  .tags {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .tags-heading {
+    display: flex;
+    flex-direction: row;
+  }
+}
