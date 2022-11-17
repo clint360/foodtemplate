@@ -165,12 +165,8 @@ label {
   }
 
   .foodesc {
-    width: 100%;
-    margin: auto;
-  }
-
-  .foodesc {
     width: 130%;
+    margin: auto;
   }
 
   .tags {
